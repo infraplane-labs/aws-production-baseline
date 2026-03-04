@@ -36,6 +36,7 @@ This serves as the networking foundation for:
 - Clean resource naming
 
 This is meant to be a starting point — not a framework.
+This project uses the excellent terraform-aws-modules/vpc/aws module.
 
 ---
 

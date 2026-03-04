@@ -1,0 +1,13 @@
+region      = "us-east-1"
+profile     = null
+
+project     = "infraplane"
+environment = "dev"
+vpc_cidr    = "10.20.0.0/16"
+
+az_count           = 2
+single_nat_gateway = true
+
+tags = {
+  Owner = "infraplane-labs"
+}
